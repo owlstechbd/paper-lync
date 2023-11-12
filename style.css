@@ -913,7 +913,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
      # Bradcrumb 
 =================================================================== */
 .breadcrumb-area {
-  padding: 150px 0;
+  padding: 200px 0;
   position: relative;
   z-index: 1;
 }
@@ -1702,8 +1702,8 @@ body,
   top: -50%;
   content: "";
   height: 200%;
-  width: 60%;
-  background: rgba(255, 255, 255, 0.5);
+  width: 130%;
+  background: rgba(255, 255, 255, 0.913);
   z-index: -1;
   -moz-box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
   -webkit-box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
@@ -1931,6 +1931,7 @@ body,
 }
 .dot-list li{
   display: flex;
+  font-weight: 600;
 }
 .dot-list li i{
   font-size:5px;
